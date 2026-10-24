@@ -1,0 +1,6 @@
+{
+  "name": "SmartStudy AI",
+  "description": "Kinetic AI study co-pilot featuring adaptive sync, weak-spot micro-quizzes, spaced repetition quick-decks, AI tutor, smart notes, and predictive study planning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,219 @@
+---
+name: SmartStudy Kinetic
+colors:
+  surface: '#fbf8ff'
+  surface-dim: '#d9d8ed'
+  surface-bright: '#fbf8ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f4f2ff'
+  surface-container: '#eeecff'
+  surface-container-high: '#e7e6fb'
+  surface-container-highest: '#e2e0f6'
+  on-surface: '#191a29'
+  on-surface-variant: '#464556'
+  inverse-surface: '#2e2f3f'
+  inverse-on-surface: '#f1efff'
+  outline: '#777587'
+  outline-variant: '#c7c4d9'
+  surface-tint: '#4e3fec'
+  primary: '#3e2ade'
+  on-primary: '#ffffff'
+  primary-container: '#584bf6'
+  on-primary-container: '#e8e5ff'
+  inverse-primary: '#c4c0ff'
+  secondary: '#00677e'
+  on-secondary: '#ffffff'
+  secondary-container: '#00d2fd'
+  on-secondary-container: '#005669'
+  tertiary: '#6c4a00'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#8b6000'
+  on-tertiary-container: '#ffe4bf'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#e3dfff'
+  primary-fixed-dim: '#c4c0ff'
+  on-primary-fixed: '#110069'
+  on-primary-fixed-variant: '#3419d6'
+  secondary-fixed: '#b4ebff'
+  secondary-fixed-dim: '#3cd7ff'
+  on-secondary-fixed: '#001f27'
+  on-secondary-fixed-variant: '#004e5f'
+  tertiary-fixed: '#ffdeac'
+  tertiary-fixed-dim: '#ffba38'
+  on-tertiary-fixed: '#281900'
+  on-tertiary-fixed-variant: '#604100'
+  background: '#fbf8ff'
+  on-background: '#191a29'
+  surface-variant: '#e2e0f6'
+typography:
+  display-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 40px
+    fontWeight: '800'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.015em
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 26px
+    fontWeight: '700'
+    lineHeight: 34px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 26px
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 22px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 10px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-sm: 0.75rem
+  gutter-lg: 1.5rem
+  margin: 1rem
+  margin-tablet: 2rem
+  margin-desktop: 3rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+The design system positions itself as an intelligent, uplifting academic co-pilot tailored to modern high school and university students. The design movement pairs **Clean Tech-Forward Minimalism** with **Vibrant Micro-Accents** and **Subtle Glassmorphism**, avoiding both clinical academic austerity and juvenile gamification.
+
+The UI must evoke focus, momentum, and intellectual confidence. Visual noise is minimized to reduce cognitive load during late-night study sessions or high-stakes exam review. High contrast, precise layout geometry, and electric accent pops create an interface that feels fast, assistive, and inherently modern.
+
+## Colors
+The palette balances cognitive calm with dynamic, high-engagement visual markers:
+
+- **Primary (`#584BF6` - Vibrant Indigo/Violet):** Anchor for core interactive states, high-priority navigation, and brand identification. Expresses intelligence, calm focus, and modern tech capability.
+- **Secondary (`#00D4FF` - Electric Cyan):** Used sparingly for AI-generated suggestions, active prompts, progress trackers, and real-time processing indicators.
+- **Tertiary (`#FFB300` - Bright Amber):** Dedicated to motivational feedback, streak indicators, mastery badges, and urgent study alerts.
+- **Neutral (`#1E1F2E` - Deep Slate/Obsidian):** Supplies high-contrast typography in light mode, structured dark surfaces in dark mode, and eliminates muddy gray scales.
+
+In **Dark Mode**, backgrounds shift to a layered deep indigo-slate (`#0C0D14` surface base, `#161726` elevated card container) while `#584BF6` shifts slightly lighter to `#6D62FF` for accessible legibility.
+
+## Typography
+The system creates an intentional pairing: **Plus Jakarta Sans** provides a friendly, crisp, modern structural rhythm for display headers, callouts, and metric counters, while **Inter** delivers neutral, fatigue-free readability for study summaries, flashcards, and AI dialogue.
+
+Headings feature tight tracking to look punchy and confident on mobile canvases. Body copy maintains generous line-height ratios (1.55 to 1.6) to ensure long-form revision texts and complex STEM definitions remain effortless to parse.
+
+## Layout & Spacing
+The layout follows an 8pt spatial baseline using a fluid, content-first grid:
+- **Mobile (<640px):** 4-column fluid layout with `1rem` margins and `1rem` gutters. Tap targets are locked to a strict 44px minimum vertical constraint.
+- **Tablet (640pxâ€“1024px):** 8-column layout with `2rem` side margins; flashcards, note modules, and conversation split into two parallel functional panes.
+- **Desktop (L
+NŠŠˆL‹XÛÛ[[ˆ^[Ý]Ú]X^]ÚYÛÛœÝ˜Z[™YÈLŽÙ[\™YØ[˜\ËX]š[™ÈÙ[™\›Ý\È[XšY[™YØ]]™HÜXÙHÈ[˜ÛÝ\˜YÙHØ[H›ØÝ\Ë‚‚”Ü]X[Y\˜\˜ÚH™[Y\ÈÛˆÛÛœÚ\Ý[ÛÛ\Û™[Ø\ÎˆÜXÙK^Ø
+
+H›Üˆ[›[™H[XÛÛœÈ[™ZXÜ›Ë[X™[ËÜXÙK\ÛX
+
+H›ÜˆYÚHÛÝ\Y[œ]ËÜXÙK[Y
+Mœ
+H›Üˆ[˜KXØ\™ÛÛ[[™ÜXÙK^
+
+H™]ÙY[ˆ\ØÜ™]HÝYH[š]Ë‚‚ˆÈÈ[]˜][Ûˆ	ˆ\‘\\ÈÛÛ[][šXØ]Y›ÝYÚ
+ŠÛ˜[Ý\™˜XÙHÝXÚÚ[™ÊŠˆÛÛXš[™YÚ]
+ŠœÝXK[Y[XšY[ÛÝÊŠˆ˜]\ˆ[ˆX]žH›ÜÚYÝÜÎ‚‚‹H
+Š“]™[
+˜\ÙHØ[˜\ÊNŠŠˆYÚ[ÙNˆÑŽŽQ‘Xˆ\šÈ[ÙNˆÌÌM‚‹H
+Š“]™[H
+Ø\™	ˆ[Ù[H^Y\ŠNŠŠˆ\™HÚ]HÑ‘‘‘‘‘˜[ˆYÚ[ÙKÌMŒMÌ˜[ˆ\šÈ[ÙKYš[™YÚ]HZ\›[™H›Ü™\ˆ
+\ÛÛY™Ø˜JÍK‹Œ
+X[ˆYÚ\ÛÛY™Ø˜JMKMKMKŒ
+X[ˆ\šÊK‚‹H
+Š“]™[ˆ
+XÝ]™HØ\™È	ˆ›Ø][™ÈÚY]ÊNŠŠˆÝ\ÜYžHH[Y[XšY[ÚYÝÎˆLM™Ø˜JÍK‹ŒL
+X‚‹H
+Š“]™[È
+[Ù[È	ˆRH›Û\ÊNŠŠˆ˜[œÛXÙ[˜XÚÙ›Ü›\ˆ
+˜XÚÙ›ÜYš[\Žˆ›\ŠLœ
+X
+HÚ]™Ø˜JMKMKMKŽJX[ˆYÚ[ÙH[™™Ø˜JŒ‹ŒËÎŽJX[ˆ\šÈ[ÙKš[[YYžHHYÚÞX[ˆÜˆ[™YÛÈYÚYÚÜ˜YY[›Ü™\‹‚‚ˆÈÈÚ\\ÂH›Ý[™Y™\ÜÈ˜XÝÜˆÙˆ˜ÝšZÙ\È[ˆ^XÝZYHÜ›Ý[™™]ÙY[ˆ[Ý][\›ØXÚXš[]H[™XÚšXØ[™XÚ\Ú[ÛŽ‚‹HÝ[™\™[[Y[È
+]ÛœË[œ]Ë\Ý[šY\ÊHYÜ\™[X
+
+H˜Y]\Ë‚‹HØ\™Ë›\ÚØ\™Ý\™˜XÙ\Ë[™ÝYHÝ[[X\šY\ÈØØ[H\È\™[X
+Mœ
+H›Üˆ[ˆ[[[Û˜[Ø\™XÚÈY\Ý]XË‚‹H[[Ù[È[™›ÝÛHÚY]È\ÙHK\™[X
+
+HÛˆZ\ˆXY[™ÈÛÜ›™\œË‚‹HZXÜ›ËX˜YÙ\ËYÈš[\œË[™XÝ]™HRHÝ]\È[È\™H[H›Ý[™Y[È
+NNN\
+HÈ\Ý[™ÝZ\ÚØ]YÛÜšXØ[Y]Y]Hœ›ÛH[\˜XÝ]™HØ\™Ë‚‚ˆÈÈÛÛ\Û™[Â‚ˆÈÈÈ]ÛœÂ‹H
+Š”š[X\žNŠŠˆš[Û]˜XÚÙÜ›Ý[™
+ÍN‘˜
+KÚ]HX™[[Y^\™[HÛÜ›™\ˆ˜Y]\ËZYÚˆÝ™\‹ØXÝ]™HÝ]\ÈšYÙÙ\ˆHZXÜ›Ë\ØØ[HÚY
+ŽN
+H[™[ˆ[XÝšXÈÞX[ˆ[™\™ÛÝË‚‹H
+Š”ÙXÛÛ™\žKÐRHXÝ[ÛŽŠŠˆÝ][™YÚ]HK\Ü˜YY[
+ÍN‘˜ÈÌ‘˜
+K˜XÚÙÜ›Ý[™˜[œÜ\™[ÜˆIHš[Û][YÚXÛÛ˜\ÝX™[‚‹H
+Š‘ÚÜÝŠŠˆ›Ü™\›\ÜÈÚ]›ÙK[Y\ÙÜ˜\NÈÚYÈÈ™Ø˜JÍK‹Œ
+X˜XÚÙÜ›Ý[™Ûˆ™\ÜË‚‚ˆÈÈÈÚ\È	ˆZXÜ›ËP˜YÙ\Â‹H
+Š”Ý]\È	ˆÝ™XZÈ˜YÙ\ÎŠŠˆÛÛ\XÝ[ÈÚ]\\˜Ø\ÙHX™[\ÛX\ÙÜ˜\KˆYÚX[\ÜˆÝ™XZÈÚÙ[œÈ][^™HœšYÚ[X™\ˆ
+Ñ‘ŒÌ
+HÚ]HL‰HÜXÚ]H[X™\ˆš[‚‹H
+Š•ÜXÈš[\œÎŠŠˆ\™[X›Ý[™Y™\ÜË™]]˜[˜XÚÙÜ›Ý[™Ú]ÝXHÝËXÛÛ˜\ÝÝ][™Kˆ\ÛˆÙ[XÝ[Û‹˜[œÚ][ÛœÈÈÛÛYÍN‘˜š[Ú]Ú]H^‚‚ˆÈÈÈÝYHØ\™Â‹HZ[\Ú[™È]™[H[]˜][ÛˆÚ]\™[XÛÜ›™\ˆ˜Y]\È[™[\›˜[ÜXÙK[YY[™Ë‚‹H\]Z\YÚ]HÜZXÜ›Ë\˜Z[›ÜˆÝXš™XÝØ]YÛÜš^˜][Ûˆ
+K™Ë‹š[ÛÙÞKØ[Ý[\ÊH[™HšYÚX[YÛ™YÙXÛÛ™\žHÝ]\È[™XØ]Ü‹‚‚ˆÈÈÈ[œ]šY[È	ˆRH›Û\˜\‚‹H
+Š”Ý[™\™[œ]ŠŠˆZYÚYÚÜ˜^H˜XÚÙÜ›Ý[™
+ÑŒQŒÑX
+K\™[H˜Y]\Ë[œÙ]›Ü™\ˆ˜[œÚ][Ûš[™ÈÈœÛÛYÍN‘˜\Ûˆ›ØÝ\Ë‚‹H
+ŠRH\ÜÚ\Ý˜\ŽŠŠˆ[]˜]Y\œÚ\Ý[›Ø][™È˜\ˆÚ]Lœ›\ˆÛ\ÜÛ[Üœ\ÛKšYÚX[YÛ™YÜ\šÈXÝ[ÛˆXÛÛˆÝÙ\™YžH[XÝšXÈÞX[ˆ
+Ì‘˜
+K‚‚ˆÈÈÈ\ÝÈ	ˆ›\ÚØ\™[Ù[\Â‹H\ÝÈ[\ÞHYÙK]ËYYÙHÝXH]šY\œÈ
+™Ø˜JÌÌK‹ŒŠX
+HÚ]ÜXÙK\ÛX™\XØ[Y[™Ë‚‹H›\ÚØ\™XÚÜÈ[\ÞH[˜[ZXÈÝÚ\HÙ\Ý\™\ËÝXH›Ý][Ûˆ˜[œÙ›Ü›\È
+L™YÈÈ
+Ì™YÈ™Z[™XÝ]™HØ\™ÊK[™ÛX[ˆØ\™YYÙH›Ü™\œË‚‚ˆÈÈÈÚXÚØ›Þ\È	ˆ›ÙÜ™\ÜÈš[™ÜÂ‹HÚXÚØ›Þ\È\ÙHŒ\™[XÛÜ›™\œÈ[™˜[œÚ][Ûˆœ›ÛHHÛÝÈ™]]˜[Ý›ÚÙHÈHš[YÍN‘˜›ÞÛÛZ[š[™ÈHÜš\ÜÚ]HÙ[ÛY]šXÈÚXÚÛX\šË‚‹H›ÙÜ™\ÜÈX[È]™\˜YÙHÌ‘˜Ý›ÚÙH]ÈÛˆÑMÑPQŒØ˜XÚÜÈ›Üˆš\ÝX[[ÛY[[K
